@@ -1,9 +1,13 @@
 {
-  "name": "typechain",
-  "version": "1.0.0",
-  "description": "Learn the Typescript by making a block chain",
-  "main": "index.js",
-  "repository": "https://github.com/Dobuzi/typechain.git",
-  "author": "Dobuzi",
-  "license": "MIT"
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learn the Typescript by making a block chain",
+    "main": "index.js",
+    "repository": "https://github.com/Dobuzi/typechain.git",
+    "author": "Dobuzi",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "prestart": "tsc"
+    }
 }
